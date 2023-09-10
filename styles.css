@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('pfad/zur/schriftart/amaranth.woff2') format('woff2'),
+         url('pfad/zur/schriftart/amaranth.woff') format('woff');
+    /* Fügen Sie weitere Formate hinzu, wenn verfügbar */
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+body {
+    padding: 0;
+    margin: 24px;
+    background: black;
+    font-family: 'Amaranth', Arial, Helvetica, sans-serif;
+}
+ 
+header{
+    background: black;
+    padding: 80px;
+    margin: 80px;
+}
+ 
+.mitte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.white-text {
+    color: white;
+}
+nav ul {
+    list-style: none;
+}
+ 
+nav ul li a {
+    padding: 24px;
+}
+ 
+
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.horizontal-menu li {
+    display: inline;
+    margin-right: 20px; /* Abstand zwischen den Elementen anpassen */
+}
+ 
+.horizontal-menu li:last-child {
+    margin-right: 0; /* Kein Abstand nach dem letzten Element */
+}
+ 
+.horizontal-menu a {
+    text-decoration: none;
+    color: white;
+}
+ 
+
+/* Fügen Sie die folgenden CSS-Regeln hinzu oder passen Sie sie an */
+.box {
+    background: white;
+    border-radius: 10px; /* Abgerundete Ecken */
+    width: 50%; /* Breite anpassen */
+    margin: 0 auto; /* Zentriert horizontal */
+    padding: 20px; /* Platz um den Inhalt */
+}
+ 
+.conteudo-redes {
+    display: flex;
+    justify-content: space-between; /* Abstand zwischen den Icons */
+}
+ 
+.contato-redes {
+    margin: 0 10px; /* Fügt Abstand zwischen den Icons hinzu */
+}
+ 
+.contato-redes img {
+    width: 40px; /* Icon-Größe anpassen */
+    height: 40px;
+}
